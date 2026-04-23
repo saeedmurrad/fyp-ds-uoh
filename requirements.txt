@@ -1,9 +1,24 @@
+# Python 3.10+ recommended (see https://www.tensorflow.org/install for supported versions)
+# Install: pip install -U pip && pip install -r requirements.txt
+# GPU: install a CUDA-enabled TensorFlow build for your system or use a matching Docker image
+
+# ---- Deep learning ----
+# Pin floor for transfer-learning APIs; upgrade within 2.x as needed for your environment
 tensorflow>=2.15.0
-numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
-jupyter
-ipykernel
-Pillow
+
+# ---- Data & numerics (aligned with common TF wheels) ----
+numpy>=1.24.0,<3.0.0
+pandas>=2.0.0,<3.0.0
+
+# ---- Plots (training notebooks) ----
+matplotlib>=3.7.0
+seaborn>=0.13.0
+Pillow>=10.0.0
+
+# ---- Machine learning (metrics, splits) ----
+scikit-learn>=1.3.0
+
+# ---- Jupyter: notebooks in notebooks/ ----
+jupyter>=1.0.0
+ipykernel>=6.25.0
+notebook>=7.0.0

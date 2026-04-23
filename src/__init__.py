@@ -1,1 +1,1 @@
-# Project source package (add your modules under `src/` as you work).
+# Project source package. See `paths` for `results_dir` and `models_dir` helpers.

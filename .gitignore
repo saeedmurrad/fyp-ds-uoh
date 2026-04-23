@@ -25,6 +25,8 @@ data/*
 !data/.gitkeep
 results/*
 !results/.gitkeep
+!results/README.md
+!results/cm_thesis_*.png
 models/*
 !models/.gitkeep
 !models/README.md
